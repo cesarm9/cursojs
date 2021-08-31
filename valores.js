@@ -1,12 +1,12 @@
 40
-//Numero
+//Numero primitivo
 
 "César"
-//string
+//string y es primitivo
 
 true
 false
-//booleano
+//booleano primitivo
 
 null
 undefined
