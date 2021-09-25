@@ -1,0 +1,54 @@
+A modo de recopilación:
+
+find() : Devuelve el primer elemento del array que cumpla con la condición dada
+foreach() : Ejecuta lo que le definamos una vez por cada elemento de nuestro array
+some() : Comprueba si al menos un elemento del array cumple con la condición que le damos
+filter() : Devuelve todos los elementos del array que cumplan con la condición dada
+Acá te dejo la documentación de cada uno: find() - foreach() - some() - filter()
+
+articulos
+0: {nombre: "Bici", costo: 3000}
+1: {nombre: "Tv", costo: 2500}
+2: {nombre: "Libro", costo: 320}
+3: {nombre: "Celular", costo: 10000}
+4: {nombre: "Laptop", costo: 20000}
+5: {nombre: "Audifonos", costo: 1700}
+
+
+var encuentraArticulo = articulos.find(function(articulo){
+    return articulo.nombre === "Laptop"
+});
+
+
+encuentraArticulo
+{nombre: "Laptop", costo: 20000}
+
+
+
+articulos.forEach(function(articulo){
+    console.log(articulo.nombre);
+})
+
+VM2055:2 Bici
+VM2055:2 Tv
+VM2055:2 Libro
+VM2055:2 Celular
+VM2055:2 Laptop
+VM2055:2 Audifonos
+
+
+
+
+
+var articulosBaratos = articulos.some(function(articulos){
+
+    return articulos.costo <= 700;
+});
+
+
+
+var articulosBaratos = articulos.find(function(articulos){
+
+    return articulos.costo <= 700;
+});
+undefined

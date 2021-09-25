@@ -11,10 +11,10 @@ aqui se crea una variable llamada new auto con los datos que se le pasan de para
 y abajo se crean otros autos 2
 
 
-var AutoNuevo2 =  new auto("Tesla", "Model X", 2018);
+var AutoNuevo2 =  new autogit("Tesla", "Model X", 2018);
 
 var AutoNuevo3 = new auto("Toyota", "Corolla", 2020);
-
+ 
 
 aqui se hace el print y te muestra lo que traen adentro
 AutoNuevo
